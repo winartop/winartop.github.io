@@ -6890,7 +6890,7 @@
         e.exports = n.p + "static/media/1-1.9c7b6c00.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "../image/小柠.png"
+        e.exports = n.p + "/image/小柠.png"
     },
     function (e, t, n) {
         e.exports = n.p + "static/media/10.903aae48.png"
