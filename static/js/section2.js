@@ -2598,47 +2598,47 @@
             title: "Boneka-bonekaan",
             desc: ":) :)"
         }, {
-            fileName: "1-1.png",
+            fileName: "2.png",
             title: "andeknya genit",
             desc: "semoga sehat terus yaa dan tetap senyum, tuh adeknya udah genit"
         }, {
-            fileName: "2.png",
+            fileName: "3.png",
             title: ":)",
             desc: ":) :)"
         }, {
-            fileName: "3.png",
+            fileName: "4.png",
             title: "ayo tebak ini gaya apa?",
             desc: ":) :v"
         }, {
-            fileName: "4.png",
+            fileName: "5.png",
             title: "Serius amat mbak?",
             desc: "si amat aja belum serius"
         }, {
-            fileName: "5.png",
+            fileName: "6.png",
             title: "semoga yang di semogakan",
             desc: ":)"
         }, {
-            fileName: "6.png",
+            fileName: "7.png",
             title: "tahun ini aku lulus lo",
             desc: "Amiin"
         }, {
-            fileName: "7.png",
+            fileName: "8.png",
             title: "emm udah cocok belum jadi emak2",
             desc: ":) :)"
         }, {
-            fileName: "8.png",
+            fileName: "9.png",
             title: "ngelirik siapa neng",
             desc: "(￣▽￣)"
         }, {
-            fileName: "9.png",
+            fileName: "10.png",
             title: "tolong Cueknyaa di kurangi",
             desc: ":), perbanyak senyum"
         }, {
-            fileName: "10.png",
+            fileName: "11.png",
             title: "kayak gini lo",
             desc: "senyuman sang penjual kain :)"
         }, {
-            fileName: "11.png",
+            fileName: "12.png",
             title: "dan kayak gini",
             desc: "bahagia di buatin candi dalam 1 malam"
         }]
@@ -6890,7 +6890,7 @@
         e.exports = n.p + "static/media/1-1.9c7b6c00.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "/image/小柠.png"
+         e.exports = n.p + "static/media/1.b0776cac.png"
     },
     function (e, t, n) {
         e.exports = n.p + "static/media/10.903aae48.png"
@@ -7988,18 +7988,18 @@
             }()
         }
         var i = {
-            "./1-1.png": 165,
-            "./1.png": 166,
-            "./10.png": 167,
-            "./11.png": 168,
-            "./2.png": 169,
-            "./3.png": 170,
-            "./4.png": 171,
-            "./5.png": 172,
-            "./6.png": 173,
-            "./7.png": 174,
-            "./8.png": 175,
-            "./9.png": 176
+            "./1.png": 165,
+            "./2.png": 166,
+            "./3.png": 167,
+            "./4.png": 168,
+            "./5.png": 169,
+            "./6.png": 170,
+            "./7.png": 171,
+            "./8.png": 172,
+            "./9.png": 173,
+            "./10.png": 174,
+            "./11.png": 175,
+            "./12.png": 176
         };
         r.keys = function () {
             return Object.keys(i)
