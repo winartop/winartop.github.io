@@ -2594,23 +2594,23 @@
     },
     function (e, t) {
         e.exports = [{
-            fileName: "1.PNG",
+            fileName: "1.png",
             title: "Boneka-bonekaan",
             desc: ":) :)"
         }, {
-            fileName: "1-1.PNG",
+            fileName: "1-1.png",
             title: "andeknya genit",
             desc: "semoga sehat terus yaa dan tetap senyum, tuh adeknya udah genit"
         }, {
-            fileName: "2.PNG",
+            fileName: "2.png",
             title: ":)",
             desc: ":) :)"
         }, {
-            fileName: "3.PNG",
+            fileName: "3.png",
             title: "ayo tebak ini gaya apa?",
             desc: ":) :v"
         }, {
-            fileName: "4.PNG",
+            fileName: "4.png",
             title: "Serius amat mbak?",
             desc: "si amat aja belum serius"
         }, {
@@ -6887,25 +6887,25 @@
     function (e, t) {},
     163,
     function (e, t, n) {
-        e.exports = n.p + "static/media/1-1.9c7b6c00.PNG"
+        e.exports = n.p + "static/media/1-1.9c7b6c00.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/1.b0776cac.PNG"
+        e.exports = n.p + "static/media/1.b0776cac.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/10.903aae48.PNG"
+        e.exports = n.p + "static/media/10.903aae48.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/11.c3635477.PNG"
+        e.exports = n.p + "static/media/11.c3635477.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/2.863ca412.PNG"
+        e.exports = n.p + "static/media/2.863ca412.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/3.6b1a0e23.PNG"
+        e.exports = n.p + "static/media/3.6b1a0e23.png"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/4.5f2febaf.PNG"
+        e.exports = n.p + "static/media/4.5f2febaf.png"
     },
     function (e, t, n) {
         e.exports = n.p + "static/media/5.61e0c7f0.png"
@@ -7988,13 +7988,13 @@
             }()
         }
         var i = {
-            "./1-1.PNG": 165,
-            "./1.PNG": 166,
-            "./10.PNG": 167,
-            "./11.PNG": 168,
-            "./2.PNG": 169,
-            "./3.PNG": 170,
-            "./4.PNG": 171,
+            "./1-1.png": 165,
+            "./1.png": 166,
+            "./10.png": 167,
+            "./11.png": 168,
+            "./2.png": 169,
+            "./3.png": 170,
+            "./4.png": 171,
             "./5.png": 172,
             "./6.png": 173,
             "./7.png": 174,
