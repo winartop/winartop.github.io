@@ -2594,51 +2594,51 @@
     },
     function (e, t) {
         e.exports = [{
-            fileName: "1.png",
+            fileName: "1.PNG",
             title: "Boneka-bonekaan",
             desc: ":) :)"
         }, {
-            fileName: "2.png",
+            fileName: "1-1.PNG",
             title: "andeknya genit",
             desc: "semoga sehat terus yaa dan tetap senyum, tuh adeknya udah genit"
         }, {
-            fileName: "3.png",
+            fileName: "2.PNG",
             title: ":)",
             desc: ":) :)"
         }, {
-            fileName: "4.png",
+            fileName: "3.PNG",
             title: "ayo tebak ini gaya apa?",
             desc: ":) :v"
         }, {
-            fileName: "5.png",
+            fileName: "4.PNG",
             title: "Serius amat mbak?",
             desc: "si amat aja belum serius"
         }, {
-            fileName: "6.png",
+            fileName: "5.png",
             title: "semoga yang di semogakan",
             desc: ":)"
         }, {
-            fileName: "7.png",
+            fileName: "6.png",
             title: "tahun ini aku lulus lo",
             desc: "Amiin"
         }, {
-            fileName: "8.png",
+            fileName: "7.png",
             title: "emm udah cocok belum jadi emak2",
             desc: ":) :)"
         }, {
-            fileName: "9.png",
+            fileName: "8.png",
             title: "ngelirik siapa neng",
             desc: "(￣▽￣)"
         }, {
-            fileName: "10.png",
+            fileName: "9.png",
             title: "tolong Cueknyaa di kurangi",
             desc: ":), perbanyak senyum"
         }, {
-            fileName: "11.png",
+            fileName: "10.png",
             title: "kayak gini lo",
             desc: "senyuman sang penjual kain :)"
         }, {
-            fileName: "12.png",
+            fileName: "11.png",
             title: "dan kayak gini",
             desc: "bahagia di buatin candi dalam 1 malam"
         }]
@@ -6887,25 +6887,25 @@
     function (e, t) {},
     163,
     function (e, t, n) {
-        e.exports = n.p + "static/media/1-1.9c7b6c00.png"
+        e.exports = n.p + "static/media/1-1.9c7b6c00.PNG"
     },
     function (e, t, n) {
-         e.exports = n.p + "static/media/1.b0776cac.png"
+        e.exports = n.p + "static/media/1.b0776cac.PNG"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/10.903aae48.png"
+        e.exports = n.p + "static/media/10.903aae48.PNG"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/11.c3635477.png"
+        e.exports = n.p + "static/media/11.c3635477.PNG"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/2.863ca412.png"
+        e.exports = n.p + "static/media/2.863ca412.PNG"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/3.6b1a0e23.png"
+        e.exports = n.p + "static/media/3.6b1a0e23.PNG"
     },
     function (e, t, n) {
-        e.exports = n.p + "static/media/4.5f2febaf.png"
+        e.exports = n.p + "static/media/4.5f2febaf.PNG"
     },
     function (e, t, n) {
         e.exports = n.p + "static/media/5.61e0c7f0.png"
@@ -7988,18 +7988,18 @@
             }()
         }
         var i = {
-            "./1.png": 165,
-            "./2.png": 166,
-            "./3.png": 167,
-            "./4.png": 168,
-            "./5.png": 169,
-            "./6.png": 170,
-            "./7.png": 171,
-            "./8.png": 172,
-            "./9.png": 173,
-            "./10.png": 174,
-            "./11.png": 175,
-            "./12.png": 176
+            "./1-1.PNG": 165,
+            "./1.PNG": 166,
+            "./10.PNG": 167,
+            "./11.PNG": 168,
+            "./2.PNG": 169,
+            "./3.PNG": 170,
+            "./4.PNG": 171,
+            "./5.png": 172,
+            "./6.png": 173,
+            "./7.png": 174,
+            "./8.png": 175,
+            "./9.png": 176
         };
         r.keys = function () {
             return Object.keys(i)
