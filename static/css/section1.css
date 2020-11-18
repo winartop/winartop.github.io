@@ -58,8 +58,8 @@
 
 .heart {
   z-index: 1;
-  width: 150px;
-  height: 150px;
+  width: 174px;
+  height: 233px;
   position: absolute;
   top: 50%;
   margin-top: -75px;
@@ -67,7 +67,7 @@
   margin-left: -75px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image:url("https://www.flaticon.com/premium-icon/icons/svg/3511/3511585.svg");
+  background-image:url("/image/heart.png");
 }
 #top {
   width: 200px;
