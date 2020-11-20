@@ -2595,52 +2595,52 @@
     function (e, t) {
         e.exports = [{
             fileName: "1.png",
-            title: "Boneka-bonekaan",
-            desc: ":) :)"
+            title: "HBD Dek Novia",
+            desc: "Dapat Ucapan nih dari Puncak Gunung Beton"
         }, {
             fileName: "1-1.png",
-            title: "andeknya genit",
-            desc: "semoga sehat terus yaa dan tetap senyum, tuh adeknya udah genit"
+            title: "Pagi telah pergi",
+            desc: "Mentari tak bersinar lagi"
         }, {
             fileName: "2.png",
-            title: ":)",
-            desc: ":) :)"
+            title: "Entah sampai kapan",
+            desc: "Menggenggam menahan, segala kerinduan "
         }, {
             fileName: "3.png",
-            title: "ayo tebak ini gaya apa?",
-            desc: ":) :v"
+            title: "Memanggil namamu",
+            desc: "Di setiap malam, Ingin engkau datang"
         }, {
             fileName: "4.png",
-            title: "Serius amat mbak?",
-            desc: "si amat aja belum serius"
+            title: "Dan hadir di mimpiku",
+            desc: "Rindu"
         }, {
             fileName: "5.png",
-            title: "semoga yang di semogakan",
-            desc: ":)"
+            title: "Dan waktu kan menjawab",
+            desc: "Pertemuanku dan dirimu, Hingga sampai kini. Aku masih ada di sini"
         }, {
             fileName: "6.png",
-            title: "tahun ini aku lulus lo",
-            desc: "Amiin"
+            title: "Ku hanya diam",
+            desc: "Menggenggam menahan"
         }, {
             fileName: "7.png",
-            title: "emm udah cocok belum jadi emak2",
-            desc: ":) :)"
+            title: "Segala kerinduan",
+            desc: "Memanggil namamu"
         }, {
             fileName: "8.png",
-            title: "ngelirik siapa neng",
-            desc: "(￣▽￣)"
+            title: "Di setiap malam",
+            desc: "Ingin engkau datang, Dan hadir di mimpiku"
         }, {
             fileName: "9.png",
-            title: "tolong Cueknyaa di kurangi",
-            desc: ":), perbanyak senyum"
+            title: "Dan bayangmu",
+            desc: "Akan selalu bersandar di hatiku"
         }, {
             fileName: "10.png",
-            title: "kayak gini lo",
-            desc: "senyuman sang penjual kain :)"
+            title: "Janjiku pasti",
+            desc: "kan pulang bersamamu"
         }, {
             fileName: "11.png",
-            title: "dan kayak gini",
-            desc: "bahagia di buatin candi dalam 1 malam"
+            title: "Rindu",
+            desc: "Rindu, Rindu dan Rindu"
         }]
     },
     function (e, t) {
