@@ -2596,7 +2596,7 @@
         e.exports = [{
             fileName: "1.png",
             title: "HBD Dek Novia",
-            desc: "Dapat Ucapan nih dari Puncak Gunung Beton"
+            desc: "Semoga dek Novia Suka 😊"
         }, {
             fileName: "1-1.png",
             title: "Pagi telah pergi",
