@@ -1,0 +1,428 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Winarto</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <link href="static/css/section1.css" rel="stylesheet">
+  <link href="static/css/section2.css" rel="stylesheet">
+  <link href="static/css/section3.css" rel="stylesheet">
+  <link href="static/css/section4.css" rel="stylesheet">
+  <link href="static/css/section5.css" rel="stylesheet">
+  <link href="static/css/section6.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.min.css" rel="stylesheet">
+  <style>
+    .centerHome {
+      margin: auto;
+      width: 100%;
+    }
+    .centerKado {
+      text-align: center;
+      margin: auto;
+      width: 100%;
+    }
+    .music{
+      text-align: center;
+      margin: auto;
+      width: 100%;
+      height: 200px;
+      background-color: #fc0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <iframe src="/music/Gellen Martadinata.mp3" allow="autoplay" id="audio"></iframe> -->
+  <audio loop="loop" id="myAudio">
+    <source src="/music/Gellen Martadinata.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <div id="fullPage">
+   <!--  <div class="section music" >
+      <div class="">
+        <p>
+           <a onclick="playAudio()">
+            <img border="0" 
+             src="https://www.flaticon.com/svg/static/icons/svg/3655/3655273.svg"
+              width="60" height="60">
+          </a><br>
+          putar music
+        </p>
+        <script>
+         var x = document.getElementById("myAudio");
+        function playAudio() { 
+          x.play(); 
+        } 
+
+        function pauseAudio() { 
+          x.pause(); 
+        } 
+        </script>
+      </div>
+    </div> -->
+  <!--   <div class="section">
+      <div id="app">
+        <div class="quotes verticalcenter">
+          <p class="q1">Selamat ulang tahun <br> yang ke 20 tahun <br> Dek Novia Lismiantika </p>
+          <p class="q2">emm, maaf dek <br> aku cuma bisa ngasih <br> kayak gini dulu :)</p>
+        </div>
+        <div class="main-section">
+          <div class="heart"></div>
+          <div id="top"></div>
+          <div class="love"></div>
+          <div id="bottom"></div>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="section">
+      <div id="content" class="content"></div>
+    </div> -->
+    <!-- <div class="section section4">
+      <div class="paper">
+        <div class="lines">
+          <div class="text" spellcheck="false">
+            Halloo dek Novia<br /><br />
+            <span class='sentence sentence1'></span>
+            <br />
+            <span class='sentence sentence2'></span>
+            <br />
+            <span class='sentence sentence3'></span>
+            <br />
+            <span class='sentence sentence4'></span>
+            <br />
+            <span class='sentence sentence5'></span>
+            <br />
+            <span class='sentence sentence6'></span>
+            <br />
+            <span class='sentence sentence7'></span>
+            <br />
+            <span class='sentence sentence8'></span>
+            <br />
+            <span class='sentence sentence9'></span>
+            <br />
+            <span class='sentence sentence10'></span>
+          </div>
+        </div>
+        <div class="holes hole-top"></div>
+        <div class="holes hole-middle"></div>
+        <div class="holes hole-bottom"></div>
+      </div>
+    </div>
+    <div class="section section5">
+      <div id="wrapper">
+        <div id="candle-1" class="candle small">
+          <div class="eye"></div>
+          <div class="eye"></div>
+          <div class="flame"></div>
+        </div>
+        <div class="flame-halo"></div>
+        <div id="candle-2" class="candle">
+          <div class="eye"></div>
+          <div class="eye"></div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="section section5">
+      <div class="centerKado">
+        <p>
+         klik gambar iki dek
+          <br>
+          <br>
+           <a href="https://cantelope.org/NYE/" target="_blank">
+            <img border="0" src="https://www.flaticon.com/svg/static/icons/svg/837/837863.svg"
+              width="100" height="100">
+          </a>
+        </p>
+        <script>
+          function myFunction() {
+            location.replace("https://cantelope.org/NYE/")
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+  <script src='http://css-tricks.com/examples/BlurredText/js/jquery.lettering.js'></script>
+  <script src="static/js/section2.js"></script>
+  <script src="static/js/section6.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      var t1 = new TimelineMax({
+        repeat: -1
+      });
+
+      $('#fullPage').fullpage({
+        afterLoad: function (link, index) {
+          switch (index) {
+
+            case 3:
+              if (($(".sentence1").html() === '') || ($(".sentence10").html() !== '')) {
+
+                $(".sentence").empty();
+                $('.typed-cursor').remove();
+
+                $(".sentence1").typed({
+                  strings: ["pertama",
+                    "Hari ini adalah hari bahagia dek Novi, Hari Kelahiranmu"
+                  ],
+                  typeSpeed: 100,
+                  backSpeed: 50,
+                  cursorChar: "♡",
+                  loop: false,
+                  callback: function () {
+                    $(".sentence2").typed({
+                      strings: [
+                        "sekarang kamu sudah <strong>20 tahun</strong> udah mulai tua yaa :p",
+                        "Selamat ulang tahun :, Maaf ya aku gak bisa ngabisin waktu",
+                        "dihari Spesial Kamu "
+                      ],
+                      startDelay: 1000,
+                      typeSpeed: 100,
+                      backSpeed: 50,
+                      cursorChar: "♡",
+                      callback: function () {
+                        $(".sentence3").typed({
+                          strings: [
+                            "Sebagai gantinya aku buat Ucapan melalui website ini",
+                            "Setidaknya, rasa yang ada ini bisa tersampaikan"
+                          ],
+                          startDelay: 1000,
+                          typeSpeed: 100,
+                          backSpeed: 50,
+                          cursorChar: "♡",
+                          callback: function () {
+                            $(".sentence4").typed({
+                              strings: ["Walaupun sekarang aku tidak berada di dekatmu",
+                                        "Tapi yakinlah InsyaAllah hati kita ini selalu dekat"],
+                              startDelay: 1000,
+                              typeSpeed: 100,
+                              backSpeed: 50,
+                              cursorChar: "♡",
+                              callback: function () {
+                                $(".sentence5").typed({
+                                  strings: [
+                                    "Semoga bahagia selalu,Sehat Selalu",
+                                    "Semoga apa yang dek novi cita-citakan dapat tercapai",
+                                    "Menjadi kebanggaan orang tua"
+                                  ],
+                                  startDelay: 1000,
+                                  typeSpeed: 100,
+                                  backSpeed: 50,
+                                  cursorChar: "♡",
+                                  callback: function () {
+                                    $(".sentence6").typed({
+                                      strings: [
+                                        "Semoga makin sayang sama aku :p",
+                                        "Kangen gak sama aku? :)",
+                                        ""
+                                      ],
+                                      startDelay: 1000,
+                                      typeSpeed: 100,
+                                      backSpeed: 50,
+                                      cursorChar: "♡",
+                                      callback: function () {
+                                        $(".sentence7").typed({
+                                          strings: [
+                                            "Aku juga kangen kok sama kamu..",
+                                            "Tapi sabar ya.., Tahun Baru aku balik",
+                                            "Makin imut, dan cantiknya, Hanya untuk aku seorang",
+                                            "Cantiknya jangan dibagi-bagi,Centilnya gak boleh buat yang lain"
+                                          ],
+                                          startDelay: 1000,
+                                          typeSpeed: 100,
+                                          backSpeed: 50,
+                                          cursorChar: "♡",
+                                          callback: function () {
+                                            $(".sentence8").typed({
+                                              strings: [
+                                                "Jangan cengeng ya,Saya tau tapi kamu harus kuat",
+                                                "Tetap tersenyum menjalani hari-hari kamu",
+                                                "Jangan ragu berbagi sama aku, Jangan pernah bosen sama aku"
+                                              ],
+                                              startDelay: 1000,
+                                              typeSpeed: 100,
+                                              backSpeed: 50,
+                                              cursorChar: "♡",
+                                              callback: function () {
+                                                $(".sentence9")
+                                                  .typed({
+                                                    strings: [
+                                                      "Selalu jadi Novia Nonong, Semangat :)",
+                                                      "Semangat kuliahnya, Jangan sampai lupa jaga kesehatan",
+                                                      "Jadi anak yang solehah, Jadi wanita yang paling strong"
+                                                    ],
+                                                    startDelay: 1000,
+                                                    typeSpeed: 100,
+                                                    backSpeed: 50,
+                                                    cursorChar: "♡",
+                                                    callback: function () {
+                                                      $(".sentence10")
+                                                        .typed({
+                                                          strings: [
+                                                            "Kado benerannya nyusul ya, Kalau aku udah gajian",
+                                                            "Aku turutin maunya kamu deh, Biar kamu gak cemberut mulu",
+                                                            "Hehehehehe",
+                                                            "Doaku yang terbaik untukmu",
+                                                            "Pokoknya selamat selamat selamat ulang tahun",
+                                                            "I .... you"
+                                                          ],
+                                                          startDelay: 1000,
+                                                          typeSpeed: 100,
+                                                          backSpeed: 50,
+                                                          cursorChar: "♡",
+                                                        });
+                                                    }
+                                                  });
+                                              }
+                                            });
+                                          }
+                                        });
+                                      }
+                                    });
+                                  }
+                                });
+                              }
+                            });
+                          }
+                        });
+                      }
+                    });
+                  }
+                });
+              }
+
+              break;
+
+            case 4:
+
+              c1 = $('#candle-1'),
+                c2 = $('#candle-2'),
+                f = c1.find('.flame'),
+                m = c2.find('.mouth'),
+
+                fTween = TweenMax.to(f, 0.3, {
+                  width: 27,
+                  backgroundColor: 'yellow',
+                  repeat: -1,
+                  yoyo: true
+                });
+
+              if ((t1.progress() > 0) && (t1.progress() < 1)) {
+                t1.progress(0);
+              } else {
+                t1.add(
+                    [
+                      TweenMax.to(c2, 0.1, {
+                        scale: 1.2,
+                        transformOrigin: "center bottom"
+                      }),
+                      TweenMax.to(m, 0.7, {
+                        scale: 5,
+                        transformOrigin: "center center",
+                        force3D: false
+                      })
+                    ]
+                  ).add(
+                    [
+                      TweenMax.to(c2, 0.7, {
+                        scale: 1,
+                        transformOrigin: "center bottom"
+                      }),
+                      TweenMax.to(m, 0.7, {
+                        scale: 1.1,
+                        transformOrigin: "center center",
+                        force3D: false
+                      })
+                    ]
+                  ).to(m, 1, {
+                    width: 100,
+                    borderRadius: 0,
+                    x: -300,
+                    autoAlpha: 0
+                  }, 1.2)
+                  .to(c1, 0.3, {
+                    x: -3,
+                    repeat: 4,
+                    yoyo: true
+                  }, 1.3)
+                  .to([f, '.flame-halo'], 0.1, {
+                    autoAlpha: 0,
+                    scale: 0.5
+                  }, 1.3)
+                  .add([
+                    TweenMax.to(c1, 1, {
+                      height: "-=20",
+                      scaleX: 1.2,
+                      backgroundColor: "#FFCCCC",
+                      transformOrigin: "center center"
+                    }),
+                    TweenMax.to(c1.find('.eye'), 1, {
+                      height: "-=5"
+                    }),
+                  ])
+                  .to(c1, 0.2, {
+                    x: "+=20",
+                    repeat: 4,
+                    yoyo: true
+                  }).add(
+                    [
+                      TweenMax.to(f, 0.2, {
+                        autoAlpha: 1,
+                        scale: 1.2
+                      })
+
+                    ]
+                  ).add(
+                    [
+                      TweenMax.to(c1, 0.5, {
+                        height: "+=20",
+                        scaleX: 1,
+                        x: "-=20",
+                      })
+
+                    ]
+                  )
+              }
+              break;
+
+            default:
+              break;
+          }
+        },
+
+        onLeave: function (link, index) {
+          switch (index) {
+
+            default:
+              break;
+          }
+        }
+      });
+
+      $('.q1').delay(7000).fadeIn(300).delay(2000).fadeOut(300, function () {
+        $('.q2').delay(1000).fadeIn(300).delay(2500).fadeOut(300, function () {
+          $('.quotes').fadeOut(300);
+          $('.main-section').delay(1000).fadeIn(300, function () {
+
+          });
+        });
+      });
+    });
+
+    $('audio')[0].volume = 0.4;
+
+    $("#top").lettering();
+    $("#bottom").lettering();
+  </script>
+</body>
+
+</html>
