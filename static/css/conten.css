@@ -3,7 +3,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background: #272B24;
   }
   body .ghost {
