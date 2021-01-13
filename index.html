@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -16,12 +17,14 @@
       margin: auto;
       width: 100%;
     }
+
     .centerKado {
       text-align: center;
       margin: auto;
       width: 100%;
     }
-    .music{
+
+    .music {
       text-align: center;
       margin: auto;
       width: 100%;
@@ -33,31 +36,25 @@
 
 <body>
   <!-- <iframe src="/music/Gellen Martadinata.mp3" allow="autoplay" id="audio"></iframe> -->
-  <audio loop="loop" id="myAudio">
+  <!-- <audio loop="loop" id="myAudio">
     <source src="/music/Gellen Martadinata.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
-  </audio>
+  </audio> -->
   <div id="fullPage">
     <div class="section section5">
       <div class="centerKado">
         <p>
-         klik gambar iki dek
+          klik gambar iki dek
           <br>
           <br>
-           <a href="https://cantelope.org/NYE/" target="_blank">
-            <img border="0" src="https://www.flaticon.com/svg/static/icons/svg/837/837863.svg"
-              width="100" height="100">
+          <a href="conten.html" target="_blank">
+            <img border="0" src="https://www.flaticon.com/svg/static/icons/svg/837/837863.svg" width="100" height="100">
           </a>
         </p>
-        <script>
-          function myFunction() {
-            location.replace("https://cantelope.org/NYE/")
-          }
-        </script>
       </div>
     </div>
   </div>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
   <script src='http://css-tricks.com/examples/BlurredText/js/jquery.lettering.js'></script>
@@ -67,7 +64,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 
   <script type="text/javascript">
-
     $(document).ready(function () {
       var t1 = new TimelineMax({
         repeat: -1
@@ -91,7 +87,7 @@
                   backSpeed: 50,
                   cursorChar: "♡",
                   loop: false,
-                  
+
                 });
               }
 
